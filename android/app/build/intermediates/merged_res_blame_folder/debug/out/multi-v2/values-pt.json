@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.reactnativeapp-mergeDebugResources-26:/values-pt/values-pt.xml",
+            "outputFile": "com.reactnativeapp-mergeDebugResources-36:/values-pt/values-pt.xml",
             "map": [
                 {
                     "source": "/Users/chamika/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/res/values-pt/values-pt.xml",
