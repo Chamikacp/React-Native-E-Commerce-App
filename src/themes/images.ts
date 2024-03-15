@@ -6,22 +6,10 @@ const Images = {
   icons: {
     chevron:
       require("../assets/images/icons/chevron/Arrow.png") as ImageSourcePropType,
-    user: require("../assets/images/icons/user/user.png") as ImageSourcePropType,
-    check:
-      require("../assets/images/icons/check/check.png") as ImageSourcePropType,
-    mute: require("../assets/images/icons/mute/mute.png") as ImageSourcePropType,
-    unmute:
-      require("../assets/images/icons/unmute/unmute.png") as ImageSourcePropType,
-    report:
-      require("../assets/images/icons/report/report.png") as ImageSourcePropType,
-    analyzing:
-      require("../assets/images/icons/analyzing/analyzing.png") as ImageSourcePropType,
-    chevronRight:
-      require("../assets/images/icons/chevronRight/chevronRight.png") as ImageSourcePropType,
-    rightArrow:
-      require("../assets/images/icons/arrow/right/right.png") as ImageSourcePropType,
-    expiry:
-      require("../assets/images/icons/expiry/expiry.png") as ImageSourcePropType,
+    home: require("../assets/images/icons/home/Home.png") as ImageSourcePropType,
+    cart: require("../assets/images/icons/cart/Cart.png") as ImageSourcePropType,
+    account:
+      require("../assets/images/icons/account/Account.png") as ImageSourcePropType,
   },
   tabs: {},
 };

@@ -3,4 +3,5 @@ export const MainScreensStack = {
   HOME: "Home",
   CART: "Cart",
   ACCOUNT: "Account",
+  PRODUCT: "Product",
 };

@@ -14,7 +14,7 @@ import { hasNotch } from "react-native-device-info";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 import { HomeScreenStack } from "../constants/home.navigation.constants";
-import HomeDetails from "../screens";
+import AllProducts from "../../products/screens";
 import CartDetails from "../../cart/screens";
 import AccountDetails from "../../account/screens";
 import i18n from "../../../i18n";
@@ -42,14 +42,14 @@ const HomeTabNavigator: React.FC = () => {
     </View>
   );
 
-  const renderTrialsTabBarIcon = ({ color }: RenderTabBarParams) =>
-    renderIcon(Theme.Images.icons.chevron, color);
+  const renderHomeTabBarIcon = ({ color }: RenderTabBarParams) =>
+    renderIcon(Theme.Images.icons.home, color);
 
-  const renderDrillsTabBarIcon = ({ color }: RenderTabBarParams) =>
-    renderIcon(Theme.Images.icons.chevron, color);
+  const renderCartTabBarIcon = ({ color }: RenderTabBarParams) =>
+    renderIcon(Theme.Images.icons.cart, color);
 
-  const renderProfileTabBarIcon = ({ color }: RenderTabBarParams) =>
-    renderIcon(Theme.Images.icons.chevron, color);
+  const renderAccountTabBarIcon = ({ color }: RenderTabBarParams) =>
+    renderIcon(Theme.Images.icons.account, color);
 
   return (
     <Tab.Navigator
@@ -63,10 +63,10 @@ const HomeTabNavigator: React.FC = () => {
     >
       <Tab.Screen
         name={HomeScreenStack.HOME}
-        component={HomeDetails}
+        component={AllProducts}
         options={{
           tabBarLabel: i18n.tabBar.home,
-          tabBarIcon: renderTrialsTabBarIcon,
+          tabBarIcon: renderHomeTabBarIcon,
         }}
       />
       <Tab.Screen
@@ -74,7 +74,7 @@ const HomeTabNavigator: React.FC = () => {
         component={CartDetails}
         options={{
           tabBarLabel: i18n.tabBar.cart,
-          tabBarIcon: renderDrillsTabBarIcon,
+          tabBarIcon: renderCartTabBarIcon,
         }}
       />
       <Tab.Screen
@@ -82,7 +82,7 @@ const HomeTabNavigator: React.FC = () => {
         component={AccountDetails}
         options={{
           tabBarLabel: i18n.tabBar.account,
-          tabBarIcon: renderProfileTabBarIcon,
+          tabBarIcon: renderAccountTabBarIcon,
         }}
       />
     </Tab.Navigator>
@@ -104,12 +104,11 @@ const styles = StyleSheet.create({
   },
   labelStyles: {
     fontSize: FONT_SIZES.bitTiny,
-    fontFamily: "PPNeueMontreal-Medium",
     fontWeight: "500",
   },
   iconStyles: {
-    width: 24,
-    height: 24,
+    width: 28,
+    height: 28,
   },
 });
 

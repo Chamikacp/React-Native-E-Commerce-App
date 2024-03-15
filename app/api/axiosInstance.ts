@@ -1,7 +1,8 @@
 import axios, { AxiosInstance } from "axios";
+import { BASE_URL } from "../constants/generic.constants";
 
 const axiosInstance: AxiosInstance = axios.create({
-  baseURL: "https://s3-eu-west-1.amazonaws.com",
+  baseURL: BASE_URL,
 });
 
 axiosInstance.defaults.headers.common.Accept =

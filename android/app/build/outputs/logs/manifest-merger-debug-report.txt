@@ -6,6 +6,7 @@ INJECTED from /Users/chamika/Documents/GitHub/React-Native-E-Commerce-App/androi
 INJECTED from /Users/chamika/Documents/GitHub/React-Native-E-Commerce-App/android/app/src/debug/AndroidManifest.xml:2:1-9:12
 INJECTED from /Users/chamika/Documents/GitHub/React-Native-E-Commerce-App/android/app/src/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:flipper-integration:0.73.6] /Users/chamika/.gradle/caches/transforms-3/7ceec762c322db3b2ee74240d8e71306/transformed/jetified-flipper-integration-0.73.6-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-async-storage_async-storage] /Users/chamika/Documents/GitHub/React-Native-E-Commerce-App/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-community_masked-view] /Users/chamika/Documents/GitHub/React-Native-E-Commerce-App/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-device-info] /Users/chamika/Documents/GitHub/React-Native-E-Commerce-App/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-gesture-handler] /Users/chamika/Documents/GitHub/React-Native-E-Commerce-App/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
@@ -201,6 +202,8 @@ INJECTED from /Users/chamika/Documents/GitHub/React-Native-E-Commerce-App/androi
 INJECTED from /Users/chamika/Documents/GitHub/React-Native-E-Commerce-App/android/app/src/debug/AndroidManifest.xml
 MERGED from [com.facebook.react:flipper-integration:0.73.6] /Users/chamika/.gradle/caches/transforms-3/7ceec762c322db3b2ee74240d8e71306/transformed/jetified-flipper-integration-0.73.6-debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:flipper-integration:0.73.6] /Users/chamika/.gradle/caches/transforms-3/7ceec762c322db3b2ee74240d8e71306/transformed/jetified-flipper-integration-0.73.6-debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] /Users/chamika/Documents/GitHub/React-Native-E-Commerce-App/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] /Users/chamika/Documents/GitHub/React-Native-E-Commerce-App/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-community_masked-view] /Users/chamika/Documents/GitHub/React-Native-E-Commerce-App/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-community_masked-view] /Users/chamika/Documents/GitHub/React-Native-E-Commerce-App/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-device-info] /Users/chamika/Documents/GitHub/React-Native-E-Commerce-App/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44

@@ -10,6 +10,7 @@ import { ParamListBase, RouteProp } from "@react-navigation/native";
 import HomeNavigation from "../../src/features/home/navigation/index";
 import AccountNavigation from "../../src/features/account/navigation/index";
 import CartNavigation from "../../src/features/cart/navigation";
+import ProductsNavigation from "../../src/features/products/navigation";
 
 const MainNavigator = createStackNavigator();
 
@@ -42,6 +43,10 @@ const NavigationStack: React.FC = () => {
       <MainNavigator.Screen
         name={MainScreensStack.CART}
         component={CartNavigation}
+      />
+      <MainNavigator.Screen
+        name={MainScreensStack.PRODUCT}
+        component={ProductsNavigation}
       />
     </MainNavigator.Navigator>
   );

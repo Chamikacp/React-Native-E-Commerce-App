@@ -1,3 +1,5 @@
+export const BASE_URL: string = "https://s3-eu-west-1.amazonaws.com";
+
 export const FONT_SIZES = {
   HeroTitle: 40,
   BigTitle: 32,
