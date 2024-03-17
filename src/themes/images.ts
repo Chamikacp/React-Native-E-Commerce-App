@@ -10,6 +10,11 @@ const Images = {
     cart: require("../assets/images/icons/cart/Cart.png") as ImageSourcePropType,
     account:
       require("../assets/images/icons/account/Account.png") as ImageSourcePropType,
+    delete:
+      require("../assets/images/icons/delete/Delete.png") as ImageSourcePropType,
+    plus: require("../assets/images/icons/plus/Plus.png") as ImageSourcePropType,
+    minus:
+      require("../assets/images/icons/minus/Minus.png") as ImageSourcePropType,
   },
   tabs: {},
 };

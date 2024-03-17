@@ -48,7 +48,7 @@ const AllProducts: React.FC = () => {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar backgroundColor={Theme.Colors.TRANSPARENT} />
-      <Text style={styles.title}>{i18n.title}</Text>
+      <Text style={styles.title}>{i18n.home.title}</Text>
       <FlatList
         data={products}
         renderItem={renderItem}
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
   },
   title: {
     margin: 10,
-    fontSize: 35,
+    fontSize: 30,
     color: Theme.Colors.Text.PRIMARY,
     fontWeight: "bold",
   },

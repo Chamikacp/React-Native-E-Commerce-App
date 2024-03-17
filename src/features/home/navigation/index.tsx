@@ -65,7 +65,7 @@ const HomeTabNavigator: React.FC = () => {
         name={HomeScreenStack.HOME}
         component={AllProducts}
         options={{
-          tabBarLabel: i18n.tabBar.home,
+          tabBarLabel: i18n.home.tabBar.home,
           tabBarIcon: renderHomeTabBarIcon,
         }}
       />
@@ -73,7 +73,7 @@ const HomeTabNavigator: React.FC = () => {
         name={HomeScreenStack.CART}
         component={CartDetails}
         options={{
-          tabBarLabel: i18n.tabBar.cart,
+          tabBarLabel: i18n.home.tabBar.cart,
           tabBarIcon: renderCartTabBarIcon,
         }}
       />
@@ -81,7 +81,7 @@ const HomeTabNavigator: React.FC = () => {
         name={HomeScreenStack.ACCOUNT}
         component={AccountDetails}
         options={{
-          tabBarLabel: i18n.tabBar.account,
+          tabBarLabel: i18n.home.tabBar.account,
           tabBarIcon: renderAccountTabBarIcon,
         }}
       />

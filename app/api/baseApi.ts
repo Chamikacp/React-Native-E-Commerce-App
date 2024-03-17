@@ -17,59 +17,6 @@ export default class BaseApi {
     );
   }
 
-  protected async postAsync<T>(
-    endPoint: string,
-    queryStringParameters?: QueryParams,
-    data?: unknown
-  ): Promise<T> {
-    return this.executeAsync<T>(
-      HttpMethods.Post,
-      endPoint,
-      queryStringParameters,
-      data
-    );
-  }
-
-  protected async putAsync<T>(
-    endPoint: string,
-    queryStringParameters?: QueryParams,
-    data?: unknown
-  ): Promise<T> {
-    return this.executeAsync<T>(
-      HttpMethods.Put,
-      endPoint,
-      queryStringParameters,
-      data
-    );
-  }
-
-  protected async patchAsync<T>(
-    endPoint: string,
-    queryStringParameters?: QueryParams,
-    data?: unknown
-  ): Promise<T> {
-    return this.executeAsync<T>(
-      HttpMethods.Patch,
-      endPoint,
-      queryStringParameters,
-      data
-    );
-  }
-
-  protected async deleteAsync<T>(
-    endPoint: string,
-    queryStringParameters?: QueryParams,
-    data?: unknown
-  ): Promise<T> {
-    return this.executeAsync<T>(
-      HttpMethods.Delete,
-      endPoint,
-      queryStringParameters,
-      data
-    );
-  }
-
-  // eslint-disable-next-line class-methods-use-this
   protected async executeAsync<T>(
     method: HttpMethods,
     endPoint: string,

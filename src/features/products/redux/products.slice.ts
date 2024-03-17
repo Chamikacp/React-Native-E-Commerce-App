@@ -12,7 +12,7 @@ export const initialState: ProductsState = {
 };
 
 const ProductsSlice = createSlice({
-  name: "trial",
+  name: "product",
   initialState,
   reducers: {
     setProducts: (
